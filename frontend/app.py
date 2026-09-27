@@ -1,9 +1,6 @@
-import sys
-import os
 import html
+import os
 from datetime import date
-
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import requests
 import streamlit as st
